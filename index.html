@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <!-- Animation through libraries -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--navbar-->
@@ -50,7 +51,7 @@
             <button class="heroButton">Shop Now</button>
          </div>
          <!-- image -->
-          <div class="heroImage">
+          <div data-aos="zoom-in" class="heroImage">
             <img id="FurnitureImage" src="/images/fur2.png" alt="No Image">
           </div>
     </section>
@@ -58,4 +59,9 @@
     <!--banner-->
     <!--footer-->
 </body>
+<!-- Adding scripts  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
