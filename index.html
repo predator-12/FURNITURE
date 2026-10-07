@@ -1,67 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture</title>
-    <!-- icon set up -->
-     <link rel="icon" type="images/x-icon" href="https://img.magnific.com/premium-vector/furniture-logo-icon-vector-flat-design_586739-1077.jpg">
-    <!--CSS-->
+    <!-- title icon -->
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGekcc70r3W_LMXCzqZotTBnqz4J7S-bhZHsCx7T_n_g&s=10">
     <link rel="stylesheet" href="/style.css">
-    <!--Font awosome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <!--Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Animation through libraries -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CA+Guides&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--navbar-->
-    <nav class="navbar">
-        <a href="" class="brand">
-            <i class="fa-solid fa-couch"></i>
-            <span class="brandName">Wood Furniture</span>
+    <!-- navbar -->
+     <nav class="navbar">
+        <a class="brand" href=""><i class="fa-solid fa-couch"></i>
+            <span class="brandname">Wood Furniture</span>
         </a>
-
-        <!--checkbox-->
-        <input type="checkbox" id="check">
-        <!-- label include 2 icons -->
-         <label for="check" class="icons">
-            <i id="menuIcon" class="fa-solid fa-bars"></i>
-            <i id="cancelIcon" class="fa-regular fa-circle-xmark"></i>
-         </label>
-
-        <!--links-->
-        <ul class="navlink">
+        <!-- checkbox -->
+         <input type="checkbox" id="check">
+         <!-- label incleudes 2 icons-->
+          <label for="check" class="icons">
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <i id="cancelicon" class="fa-regular fa-circle-xmark"></i>
+          </label>
+        <!-- link -->
+         <ul class="navlinks">
             <li class="links"><a href="#home" class="link">Home</a></li>
-            <li class="links"><a href="#product" class="link">Product</a></li>
-            <li class="links"><a href="#about" class="link">About</a></li>
+            <li class="links"><a href="#products" class="link">Products</a></li>
+            <li class="links"><a href="#banner" class="link">About</a></li>
             <li class="links"><a href="#content" class="link">Contact</a></li>
-        </ul>
-
-    </nav>
-    <!--Hero selection-->
-    <section id="home" class="hero">
+         </ul>
+     </nav>
+    <!-- hero section -->
+     <section id="home"  class="hero">
         <!-- text content -->
-         <div class="heroText">
-            <h1 id="heroTitle">Mordern Furniture For Your Home</h1>
-            <p id="heroPara">Discover stylish and comfortable furniture for your living room, bedroom and office.</p>
-            <button class="heroButton">Shop Now</button>
+         <div class="herotext">
+            <h1 id="herotitle">Modern Furniture For Your Home</h1>
+            <p id="heropara">Discover stylish and comfortable furniture for your living room,bedroom and office.</p><br>
+            <button class="herobutton">Shop Now</button>
          </div>
          <!-- image -->
-          <div data-aos="zoom-in" class="heroImage">
-            <img id="FurnitureImage" src="/images/fur2.png" alt="No Image">
-          </div>
-    </section>
-    <!--products section-->
-    <!--banner-->
-    <!--footer-->
+          <div class="heroimage">
+          <img id="furnitureimage" src="./images/fUR 1.png" alt="No Image">
+        </div>
+        
+     </section>
+    <!-- products section -->
+     <section id="products" class="products">
+        <h2 class="producthead">Our Products</h2>
+        <div class="productcontainer">
+            <!-- card1 -->
+            <div class="card">
+                <img class="cardimg" src="/images/card1.jpg" alt="No image">
+                <h3 class="productname">Bed</h3>
+                <p class="price">$120</p>
+                <button class="productbutton">Buy Now</button>
+            </div>
+            <!-- card2 -->
+            <div class="card">
+                <img class="cardimg" src="/images/card2.jpg" alt="No image">
+                <h3 class="productname">Bed</h3>
+                <p class="price">$130</p>
+                <button class="productbutton">Buy Now</button>
+            </div>
+            <!-- card3 -->
+            <div class="card">
+                <img class="cardimg" src="/images/card3.jpg" alt="No image">
+                <h3 class="productname">Bed</h3>
+                <p class="price">$140</p>
+                <button class="productbutton">Buy Now</button>
+     </section>
+    <!-- banner -->
+     <section id="banner" class="banner">
+     <h2 class="bannerhead">About US</h2>
+     <p class="bannerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, libero earum. Ea dolores quaerat repudiandae ipsam, quas voluptates excepturi asperiores molestiae tenetur quam quae qui est ratione. Dolores, aspernatur illo!
+     A, harum. A illo veniam facere esse impedit eum doloribus tempora quas dicta dolorum odit vero, fuga temporibus delectus culpa iusto laudantium alias repudiandae ratione fugiat dignissimos in nostrum. Repudiandae.</p>
+     <button class="herobutton bannerbutton">Let's Talk</button>
+     </section>
+    <!-- footer -->
+     <section id="content" class="content">
+    <!-- text -->
+     <div class="contenttext">
+        <h3 class="contenthead">Contact Us</h3>
+        <h3 class="contentph">+100-23466346</h3>
+        <h3 class="contentmail">info@gmail.com</h3>
+        <!-- icons -->
+         <div class="socialicons">
+            <a class="smlink" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a class="smlink" href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="smlink" href="https://in.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+         </div>
+     </div>
+     <!-- subscribe -->
+      <div class="subscribe">
+        <h3 class="subscribehead">Join Our Mail List</h3>
+        <div class="box">
+      <input type="text" placeholder="Email" class="subinput">
+      <button class="herobutton subbutton">Subscribe</button>
+      </div>
+      </div>
+      </section>
+      <footer class="footer">
+      <p> &copy; Designed by Luminar Technolab, All Rights Reserved 2026</p>
+      </footer>
 </body>
-<!-- Adding scripts  -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 </html>
