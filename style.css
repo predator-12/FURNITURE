@@ -224,8 +224,6 @@ html{
         transform: translateY(0);
     }
 }
-
-
 /* responsive */
 @media(max-width:768px){
     .navbar{
